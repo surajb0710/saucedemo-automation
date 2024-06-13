@@ -1,12 +1,6 @@
 import { $ } from "@wdio/globals";
 
-/**
- * sub page containing specific selectors and methods for a specific page
- */
 class LoginPage {
-  /**
-   * define selectors using getter methods
-   */
   get inputUsername() {
     return $("#user-name");
   }
